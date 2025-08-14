@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+/*import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Calendar, MapPin, Users } from "lucide-react"
 
@@ -34,10 +34,10 @@ export function EventCarousel() {
     },*/
   //]
 
-  return (
+  /*return (
     <section className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Spline 3D Embed */}
+        {/* Spline 3D Embed */}{/*
         <div className="mb-12 flex justify-center">
           <iframe
             src="https://my.spline.design/claritystream-OOSYs4Lt8c1v9liiyPGptVmD/"
