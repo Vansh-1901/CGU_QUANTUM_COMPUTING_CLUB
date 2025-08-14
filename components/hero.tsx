@@ -20,6 +20,7 @@ export function Hero() {
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
             <span className="text-white">CGU</span>
+            <br />
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
               Quantum Computing
             </span>
@@ -51,9 +52,9 @@ export function Hero() {
             Learn More
           </Button>
         </div>
-       
+
         {/* Stats */}
-         {/*
+        {/*
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
             <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
