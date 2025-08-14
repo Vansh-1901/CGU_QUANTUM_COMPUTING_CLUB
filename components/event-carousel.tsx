@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button"
 import { Calendar, MapPin, Users } from "lucide-react"
 
 export function EventCarousel() {
-  const upcomingEvents = [
+  //const upcomingEvents = [
+    /*
     {
       id: 1,
       title: "Quantum Algorithms Workshop",
@@ -30,8 +31,8 @@ export function EventCarousel() {
       location: "Auditorium",
       attendees: 100,
       description: "Industry experts discuss career opportunities in quantum computing.",
-    },
-  ]
+    },*/
+  //]
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8">
@@ -57,7 +58,8 @@ export function EventCarousel() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {upcomingEvents.map((event) => (
+          
+           {upcomingEvents.map((event) => (
             <Card
               key={event.id}
               className="bg-slate-800/50 border-purple-500/20 hover:border-purple-500/40 transition-colors"
