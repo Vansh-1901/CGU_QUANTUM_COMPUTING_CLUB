@@ -60,7 +60,7 @@ Please provide a helpful response about the Quantum Computing Club or quantum co
       const { text } = await generateText({
         model: openai("gpt-3.5-turbo"),
         prompt: prompt,
-        maxTokens: 150,
+        maxOutputTokens: 150,
         temperature: 0.7,
       })
 

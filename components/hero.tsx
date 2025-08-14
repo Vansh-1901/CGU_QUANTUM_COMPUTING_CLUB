@@ -13,10 +13,13 @@ export function Hero() {
         <div className="mb-8">
           <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full border border-blue-500/30 mb-6">
             <Sparkles className="h-4 w-4 text-blue-400 mr-2" />
-            <span className="text-sm text-blue-300">Welcome to the Future of Computing</span>
+            <span className="text-sm text-blue-300">
+              Welcome to the Future of Computing
+            </span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
+            <span className="text-white">CGU</span>
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
               Quantum Computing
             </span>
@@ -25,8 +28,9 @@ export function Hero() {
           </h1>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Explore the fascinating world of quantum computing with fellow enthusiasts. Join us for workshops, research
-            projects, and cutting-edge discussions about the future of computation.
+            Explore the fascinating world of quantum computing with fellow
+            enthusiasts. Join us for workshops, research projects, and
+            cutting-edge discussions about the future of computation.
           </p>
         </div>
 
@@ -47,8 +51,9 @@ export function Hero() {
             Learn More
           </Button>
         </div>
-
+       
         {/* Stats */}
+         {/*
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
             <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
@@ -63,7 +68,8 @@ export function Hero() {
             <div className="text-gray-400">Research Projects</div>
           </div>
         </div>
+        */}
       </div>
     </section>
-  )
+  );
 }
