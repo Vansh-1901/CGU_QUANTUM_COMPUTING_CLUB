@@ -30,18 +30,19 @@ export default function AboutUsPage() {
       image: "/diverse-female-student.png",
     },
   ]
-
+   /*
   const achievements = [
     { icon: Award, title: "IBM Qiskit Challenge Winner", description: "2023 Global Competition" },
     { icon: Users, title: "50+ Active Members", description: "Growing community of quantum enthusiasts" },
     { icon: Lightbulb, title: "25+ Workshops Conducted", description: "Hands-on learning experiences" },
     { icon: Brain, title: "10+ Research Projects", description: "Student-led quantum research initiatives" },
   ]
-
+    
+  
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <Navbar />
-
+       */
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-slate-950"></div>
@@ -101,7 +102,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      {/* Achievements Section */}
+      {/* Achievements Section */}/*
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-white mb-12">Our Achievements</h2>
@@ -123,7 +124,7 @@ export default function AboutUsPage() {
             })}
           </div>
         </div>
-      </section>
+      </section>*/
 
       {/* Team Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-900/30">
@@ -167,6 +168,6 @@ export default function AboutUsPage() {
           </Button>
         </div>
       </section>
-    </div>
-  )
+    //</div>
+  //)
 }
